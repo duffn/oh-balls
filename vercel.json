@@ -1,0 +1,16 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build:prod",
+  "outputDirectory": "dist",
+  "headers": [
+    {
+      "source": "/asset(-pack)?s/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, must-revalidate"
+        }
+      ]
+    }
+  ]
+}

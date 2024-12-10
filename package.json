@@ -1,0 +1,32 @@
+{
+  "name": "oh-balls",
+  "version": "0.1.0",
+  "description": "Oh, balls",
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production --node-env production && phaser-asset-pack-hashing -r dist",
+    "dev": "webpack --mode development && webpack serve --mode development"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.1",
+    "@types/webfontloader": "^1.6.38",
+    "@types/webpack": "5.28.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "12.0.2",
+    "expose-loader": "5.0.0",
+    "html-webpack-plugin": "5.6.3",
+    "phaser-asset-pack-hashing": "^1.0.6",
+    "prettier": "3.4.1",
+    "ts-loader": "9.5.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.2",
+    "webfontloader": "^1.6.28",
+    "webpack": "5.96.1",
+    "webpack-cli": "5.1.4",
+    "webpack-dev-server": "5.1.0"
+  },
+  "dependencies": {
+    "phaser": "3.87.0"
+  },
+  "license": "MIT"
+}

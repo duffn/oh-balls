@@ -1,0 +1,67 @@
+{
+	"meta": {
+		"contentType": "phasereditor2d.pack.core.AssetContentType"
+	},
+	"pack": {
+		"files": [
+			{
+				"key": "speaker-on",
+				"type": "image",
+				"url": "assets/images/speaker-on.png"
+			},
+			{
+				"key": "speaker-off",
+				"type": "image",
+				"url": "assets/images/speaker-off.png"
+			},
+			{
+				"key": "balls",
+				"type": "spritesheet",
+				"url": "assets/sprites/balls.png",
+				"frameConfig": {
+					"frameWidth": 100,
+					"frameHeight": 100
+				}
+			},
+			{
+				"key": "balls-ludicrous",
+				"type": "spritesheet",
+				"url": "assets/sprites/balls-ludicrous.png",
+				"frameConfig": {
+					"frameWidth": 100,
+					"frameHeight": 100
+				}
+			},
+			{
+				"key": "arrows",
+				"type": "spritesheet",
+				"url": "assets/sprites/arrows.png",
+				"frameConfig": {
+					"frameWidth": 300,
+					"frameHeight": 300
+				}
+			},
+			{
+				"key": "music",
+				"type": "audio",
+				"url": [
+					"assets/sounds/music.wav"
+				]
+			},
+			{
+				"key": "match",
+				"type": "audio",
+				"url": [
+					"assets/sounds/match.wav"
+				]
+			},
+			{
+				"key": "reset",
+				"type": "audio",
+				"url": [
+					"assets/sounds/reset.mp3"
+				]
+			}
+		]
+	}
+}
